@@ -1,82 +1,85 @@
 .img-wallpaper {
-    background-image: url("images/Penguins.jpg");
-    background-color: #cccccc;
-    background-repeat:no-repeat;
-    background-size:cover;
+  background-image: url("images/Penguins.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .big-header {
-  width:90%;
+  width: 90%;
   margin-left: 20px;
   background-color: black;
-  border:10px outset black;
-  padding-left:10px;
-  
-  
+  border: 10px outset black;
+  padding-left: 10px;
+  overflow: auto;
+}
+#polar{
+  width: inherit;
+  height: auto;
 }
 
-.smaller-header{
+.smaller-header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-right: 250px;
-  background-color:black;
-  color:white;
+  background-color: black;
+  color: white;
   border: 10px outset black;
   margin-bottom: 50px;
-  width:2%;
-  height:auto;
-  margin-left:30%;
-  padding-left:17%;
-  
-
-  
+  width: 2%;
+  height: auto;
+  margin-left: 30%;
+  padding-left: 17%;
 }
 .paragraph {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 100px;
-  background-color:black;
-  color:white;
-  border: 10px outset black;
-}
-.link-helper{
-  color:white;
   background-color: black;
-  font-size:20px;
-  padding-left:30px;
-  text-decoration: none;
-  float:left;
+  color: white;
   border: 10px outset black;
-  padding-right:30px;
-  margin-left:30px;
-  margin-top:30px
-
-  
 }
-a:hover{
+.link-helper {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  float: left;
+  border: 10px outset black;
+  padding-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width:10%;
+  height: 10%;
+}
+.tab{
+  width: 100%;
+}
+.link-helper:hover {
   background-color: white;
-  color:black;
+  color: black;
   border: 10px outset white;
-
 }
-html{
+.main-html {
   scroll-behavior: smooth;
 }
-.img-pic{
-  width:80%;
-  height:auto;
-  margin-left:100px;
-  border:10px solid black;
+.img-pic {
+  width: 80%;
+  height: auto;
+  margin-left: 100px;
+  border: 10px solid black;
   border-spacing: 8px;
-  margin-bottom:40px;
-
+  margin-bottom: 40px;
 }
-@media only screen and (max-width:620px){
-  .img, .big-header, .img-pic{
-    width:100%;
+@media only screen and (max-width: 620px) {
+  .img,
+  .big-header,
+  .img-pic, .tab {
+    width: 100%;
   }
-  .smaller-header{
-    width:100%;
+  .smaller-header {
+    width: 100%;
     margin-left: 0%;
-    padding-left:45%
+    padding-left: 45%;
   }
 
 }
